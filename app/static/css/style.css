@@ -1,0 +1,71 @@
+*, html, header, body {
+    font-family: Open Sans;
+}
+
+header, h1, h2, h3, h4, h5 {
+    font-family: Open Sans Condensed;
+}
+
+h1 #dateRange {
+    font-family: Open Sans Condensed;
+    color: #aaa;
+}
+
+header {
+    font-size: 150%;
+    font-weight: 600;
+}
+
+h1 {
+    border-bottom: 1px solid #666;
+}
+
+h1 a {
+    color: #666;
+}
+
+.cp-toggle {
+    color: #666;
+    cursor: pointer;
+}
+
+.cp-toggle:hover {
+    text-decoration: none;
+}
+
+.cp-toggle i {
+    pointer-events: none;
+}
+
+.row {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.saved {
+    padding: 4px;
+    color: #006d2c;
+    font-weight: 600;
+    text-align: center;
+    font-size: 150%;
+    font-style: italic;
+
+    display: none;
+    background-color: #a1d99b;
+}
+
+/*
+    Table of purchase statistics
+*/
+table#purchaseStats thead {
+    font-size: 120%;
+    font-weight: 600;
+}
+
+table#purchaseStats td {
+    padding: 4px;
+}
+
+table#purchaseStats .name {
+    font-weight: 600;
+}
